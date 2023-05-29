@@ -137,14 +137,12 @@ img {
     background-position: left center;
     padding: 10rem 0;
     background-repeat: no-repeat;
-    background-size: 100%, 95rem;
-    
+    background-size: 100%, 95rem;  
 }
 
 .sobre-nosotros-grid {
     display: flex;
     justify-content: flex-end;
-
 }
 
 .texto-nosotros {
@@ -158,9 +156,9 @@ img {
 .contenido-principal{
     padding-top: 5rem;
 }
+
 .producto{
-    background-color: #037bc0; 
-      
+    background-color: #037bc0;   
 }
 
 .texto-producto {
