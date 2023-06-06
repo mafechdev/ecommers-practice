@@ -131,6 +131,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    padding-bottom: 4rem;
 }
 
 /*Bloque Sobre Nosotros*/
@@ -173,13 +174,14 @@ img {
 .texto-producto .precio{
     font-size: 2.8rem;
     font-weight: 900;
+    margin: 0 0 3rem 0; 
 }
 
 .texto-producto h3{
     margin: 0;
 }
 .texto-producto p {
-    margin: 0 0 5rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .listado-productos{
@@ -194,12 +196,23 @@ img {
     grid-column-end: 7;
     display: grid;
     grid-template-columns: 3fr 1fr;   
+    height: 43rem;   
+}
+.producto:nth-child(1) .precio {
+    padding:0.5rem;
 }
    
 .producto:nth-child(1) img {
     height: 43rem;
     width: 100%;
     object-fit: cover;   
+}
+.texto-producto .primero {
+    height: 32.25rem;
+    width: 100%;
+}
+.texto-producto .bnt{
+    height: 10.75rem;
 }
 .producto:nth-child(2){
     grid-column-start: 1;
@@ -293,4 +306,29 @@ img {
 }
 .entrada-meta span {
     color: #037bc0;
+}
+
+/** Entrada BLog **/
+.contenido-entrada-blog {
+    width:60rem;
+    margin: 0 auto;
+}
+.entrada-blog p {
+    text-align: justify;
+}
+
+/** Galeria **/
+
+.galeria{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.galeria img{
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
 }
